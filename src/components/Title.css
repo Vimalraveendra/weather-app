@@ -1,0 +1,23 @@
+
+/* h1 element */
+.title{
+	font-size: 2.5rem;
+	letter-spacing: 1.5px;
+	font-family: 'Roboto Mono', monospace; 
+}
+/* p element */
+.subtitle{
+  font-family: 'Playfair Display', serif;
+  font-weight: lighter;
+  font-size: 1.15rem;
+  font-style: italic;
+  color: #872D62;
+ 
+}
+
+@media only screen and (max-width: 700px) {
+  .title,.subtitle {
+    
+    font-size: 1.5rem;
+  }
+}
