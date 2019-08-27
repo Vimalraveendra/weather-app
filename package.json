@@ -2,8 +2,8 @@
   "name": "weather-app",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://Vimalraveendra.github.io/weather-app",
   "dependencies": {
-    "dotenv": "^8.1.0",
     "react": "^16.9.0",
     "react-dom": "^16.9.0",
     "react-scripts": "3.1.1"
@@ -12,6 +12,8 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "eject": "react-scripts eject"
   },
   "eslintConfig": {

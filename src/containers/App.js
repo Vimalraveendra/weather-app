@@ -4,7 +4,7 @@ import './App.css';
 import Titles from '../components/Titles';
 import WeatherForm from '../components/WeatherForm';
 import Weather from '../components/Weather';
-require('dotenv').config()
+
 
 const API_KEY= process.env.REACT_APP_API_KEY
 
